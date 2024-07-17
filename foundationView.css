@@ -1,0 +1,153 @@
+/* #511f52 
+bab0d4 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: #511f52;
+}
+.navigation{
+    margin-top: 50px;
+     
+ }
+.breadcrumb{
+    background-color: #bab0d4;
+    font-weight: 600;
+    height: 25px;
+}
+.breadcrumb a{
+    color: #511f52;
+}
+.breadcrumb li:not(:first-child)::before {
+    color: #511f52;
+}
+.container{
+    margin-top: 50px;
+}
+.card{
+    border: 2px  #511f52;
+
+ 
+   margin-top: 20px;
+    margin-bottom: 90px;
+    padding: 2px; 
+}
+.card-body .card-img-top{
+    height: 300px;
+    width: 350px;
+    border-radius: 5%;
+    border: 2px solid #511f52;
+}
+
+.vr{
+ 
+        border-left: 6px solid #511f52;
+        height: 500px;
+        position: absolute;
+       
+      
+}
+.button{
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+     color: #511f52;
+      
+  }
+.productDescription{
+    background-color: #bab0d4;
+    border: 2px solid #511f52;
+    width: 100%;
+    height: auto;
+margin-left: 20px;
+padding: 20px;
+margin-bottom: 20px;
+
+}
+.productDescription h3{
+    color: #511f52;
+}
+table td,tr,caption,ul{
+  margin-left: 0;
+  font-size: 15px;
+  padding: 5px;
+  
+}
+.split{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+summary{
+    color: #511f52;
+    display: flex;
+   
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    
+}
+.paragraph{
+    font-size: 15px;
+    margin-top: 10px;
+   
+}
+.dropdown-menu{
+    padding: 20px;
+    margin: 20px;
+}
+.flexSort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #511f52;
+   
+
+}
+.btn{
+    background: transparent;
+    color: #511f52;
+    font-weight: 700;
+    
+}
+.textBrand{
+    font-size: 15px;
+}
+.selectSize{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+::placeholder{
+    color: #511f52;
+}
+.footer{
+    background-color: #511f52;
+}
+.footer h2{
+    margin-top: 20px;
+    color: #bab0d4;
+}
+h3{
+    color: #bab0d4;
+}
+.footer a{
+    color: white;
+}
+.col-sm-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}

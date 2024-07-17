@@ -1,0 +1,129 @@
+/* 
+#132a1a 
+#a3ba9c*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: #132a1a ;
+}
+.navigation{
+    margin-top: 50px;
+     
+ }
+.breadcrumb{
+    background-color: #a3ba9c;
+    font-weight: 600;
+    height: 25px;
+}
+.breadcrumb li:not(:first-child)::before {
+    color: #132a1a;
+}
+.breadcrumb a{
+    color: #132a1a;
+}
+.container{
+    margin-top: 50px;
+}
+.button{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.button a{
+    border: 2px solid #132a1a;
+}
+ .btn{
+   
+    color: #132a1a;
+    margin: auto;
+    
+   
+    
+    
+}
+.card{
+    border: 2px  #132a1a;
+
+ 
+   margin-top: 20px;
+    margin-bottom: 90px;
+    padding: 2px; 
+}
+.card-body .card-img-top{
+    height: 300px;
+    width: 250px;
+    border-radius: 5%;
+    border: 2px solid #132a1a;
+}
+.btn:hover{
+    color: #a3ba9c;
+    background-color: #132a1a;
+}
+/* .JeansList{
+    margin-left: 50px;
+} */
+.dropdown-menu{
+    
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 30px;
+   
+}
+
+.flexSort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #132a1a;
+   
+
+}
+.btn-group .btn{
+    background: transparent;
+    color: #a3ba9c;
+}
+.dropdown-menu{
+    background-color: #a3ba9c;
+    
+}
+.dropdown-menu a{
+    color: #132a1a;
+    font-size: 15px;
+    
+}
+ .wish {
+   background: transparent;
+ }
+ .footer{
+    background-color: #132a1a ;
+}
+.footer h2{
+    margin-top: 20px;
+    color: #a3ba9c;
+}
+h3{
+    color: #a3ba9c;
+}
+.footer a{
+    color: white;
+}
+.col-sm-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+ 

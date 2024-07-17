@@ -1,0 +1,242 @@
+/* #511f52 
+bab0d4 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon-bar{
+    background-color: #bab0d4;
+ }
+.container-fluid{
+    background-color: #511f52;
+}
+.container-fluid a{
+  color: #bab0d4;
+  font-weight: 600;
+}
+.container-fluid a:hover{
+    color: #511f52;
+    
+}
+.container-fluid .btn{
+    color: red;
+    background-color: #bab0d4;
+}
+.breadcrumb{
+    height: 25px;
+      
+  }
+.navigation{
+   margin-top: 50px;
+    
+}
+.landingImageg{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+}
+#LandingPage{
+    min-height: 100vh;
+}
+.breadcrumb li:not(:first-child)::before {
+    color: #511f52;
+}
+.breadcrumb{
+    background-color: #bab0d4;
+    font-weight: 600;
+}
+.breadcrumb a{
+    color: #511f52;
+}
+.container-fluid img{
+    background-color: transparent;
+}
+#products{
+    min-height: 100vh;
+    margin-top: 10px;
+}
+#partners{
+    min-height: 100vh;
+    margin-top: 10px;
+}
+#review{
+    min-height: 100vh;
+    margin-top: 10px;
+}
+#contact{
+    min-height: 100vh;
+    margin-top: 10px;
+}
+h2{
+    color: #511f52;
+    font-weight: 600;
+}
+.productsList{
+    margin-top: 50px;
+    padding: 20px;
+}
+.partner{
+    margin-top: 50px;
+    padding: 20px;
+}
+.contact{
+    margin-top: 50px;
+    padding: 20px;
+}
+/* .card{
+    border: 2px  #72383d;
+
+ 
+   margin-top: 20px;
+    margin-bottom: 90px;
+    padding: 2px; 
+} */
+.card .card-img-top{
+    height: 200px;
+    width: 400px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.partnerAdjust .card{
+    margin-left: 100px;
+    padding: 10px;
+}
+h5{
+    font-size: 20px;
+    font-weight: 600;
+    color:#511f52;
+}
+
+.card-title{
+   
+    font-size: 2rem;
+}
+.productMargin{
+    margin-top: 50px;
+    padding: 10px;
+}
+.partnerMargin{
+    margin-top: 50px;  
+    padding: 10px; 
+}
+.contactMargin{
+    margin-top: 50px;
+
+}
+.imgMargin{
+    padding: 10px;
+}
+.pAdjust{
+    margin-top: 20px;
+}
+
+.textInput{
+    font-size: 20px;
+    color: #511f52;
+}
+.label1{
+    color: #511f52;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btnColor{
+    border: 2px solid#bab0d4;
+    background-color: #511f52;
+    color: #bab0d4;
+    font-size: 20px;
+}
+.footer{
+    background-color: #511f52;
+}
+.footer h2{
+    margin-top: 20px;
+    color: #bab0d4;
+}
+h3{
+    color: #bab0d4;
+}
+.footer a{
+    color: white;
+}
+label {
+    
+    color: #bab0d4;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 2px dashed #511f52;
+    
+}
+.box1 h3{
+    color:#511f52;
+    font-size: 20px;
+}
+.box2 h4{
+   font-size: 20px;
+    font-weight: 600;
+    
+    color: #511f52;
+}
+.flex{
+    margin-top: 20px;
+    border: 2px solid #511f52;
+    padding: 20px;
+    background-color: #bab0d4;
+    border-radius: 5px;
+}
+.description{
+    color:#511f52;
+}
+.glyphicon{
+   color: rgb(165, 165, 32);
+   font-size: 20px;
+   font-weight: 900;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+}
+.reviewMargin{
+    margin-top: 50px;
+    padding: 10px;
+}
+.review{
+    margin-top: 50px;
+    padding: 20px;
+}
+.partnerMargin{
+
+  
+    background-color: white;
+   
+} 
+.partnerMargin .cardAdjust {
+    margin-left: 0px;
+}
+.partnerMargin .card-img-top{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+.col-sm-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}

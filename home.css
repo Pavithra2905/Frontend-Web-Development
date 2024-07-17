@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #2e3047
+rgb(161, 202, 223) */
+.navbar{
+    z-index: 10000;
+}
+.icon-bar{
+    background-color: rgb(161, 202, 223);
+ }
+.container-fluid{
+    background-color: #2e3047;
+}
+.container-fluid a{
+  color: rgb(161, 202, 223);
+  font-weight: 600;
+}
+.container-fluid a:hover{
+    color: #2e3047;
+    
+}
+.container-fluid .btn{
+    color: red;
+    background-color: rgb(161, 202, 223);
+}
+.navigation{
+   margin-top: 50px;
+  
+    
+}
+
+
+.dropdown-menu a{
+   
+  
+    color: #2e3047;
+    
+    font-size: 15px;
+} 
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+}
+ .dropdown  .dropdown-menu{
+    background-color: rgb(161, 202, 223);
+    color: #2e3047;
+} 
+ .breadcrumb{
+  height: 25px;
+    
+}
+.dropdown-menu li{
+    background-color: rgb(161, 202, 223);
+}
+.breadcrumb a{
+    color: #2e3047;
+} 
+
+.img-fluid {
+    opacity: 0.9;
+    margin: 2px auto;
+    max-width: 100%;
+    
+    height: auto;
+    
+}
+
+.contactMargin{
+    margin-top: 50px;
+}
+.col-sm-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+.textInput{
+    font-size: 20px;
+    color: #2e3047;
+}
+.label1{
+    color: #2e3047;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btnColor{
+    border: 2px solidrgb(161, 202, 223);
+    background-color: #2e3047;
+    color: rgb(161, 202, 223);
+    font-size: 20px;
+}
+.footer{
+    background-color: #2e3047;
+}
+.footer h2{
+    
+    color: rgb(161, 202, 223);
+}
+h3{
+    color:#2e3047;
+}
+.footer h3{
+    color: rgb(161, 202, 223);
+}
+.footer a{
+    color: white;
+}
+.contact{
+    margin-top: 50px;
+    padding: 20px;
+}
+#contact{
+    min-height: 100vh;
+    margin-top: 10px;
+}
+#about{
+    min-height: 100vh;
+    margin-top: 10px;
+}
+#product{
+    min-height: 100vh;
+    margin-top: 10px;
+}
+#service{
+    min-height: 100vh;
+   margin-top: 50px;
+    background-color: white;
+}
+.text-center{
+    margin-top: 50px;
+}
+.aboutUs{
+    margin-top: 50px;
+    padding: 20px;
+}
+.aboutMargin{
+    margin-top: 50px;
+}
+.textAlign{
+    font-size: 16px;
+    
+}
+.product{
+    margin-top: 50px;
+    padding: 20px;
+}
+.productMargin{
+    margin-top: 50px;
+}
+.card{
+   
+
+ 
+   margin-top: 20px;
+    margin-bottom: 90px;
+    padding: 2px; 
+} 
+.card .card-img-top{
+    height: 200px;
+    width: 300px;
+    border: 2px solid #5b6091;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cardAdjust .card{
+    
+     
+        padding: 10px;
+        
+    
+}
+.card-title{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2e3047
+}
+.card-text {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #2e3047;
+   font-weight: 500;
+}
+.productMargin .btn{
+    color: #2e3047;
+    border: 2px solid #2e3047;
+    background-color: rgb(161, 202, 223);
+    font-size:20px ;
+}
+.searchText{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #2e3047;
+   text-align: center;
+   vertical-align: text-bottom;
+
+    
+}
+.landingImageg{
+    width: 100vw;
+    height: 100vh;
+}
+
+.serviceMargin{
+
+  
+    background-color: white;
+   
+} 
+
+.serviceMargin .card-img-top{
+    width: 150px;
+    height: 150px;
+   
+}
+.container-fluid .service {
+    background-color: white;
+}
+
+.imgMargin{
+    padding: 10px;
+}
