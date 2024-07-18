@@ -105,7 +105,7 @@ h2{
     
 } */
 .partnerAdjust .card{
-    margin-left: 100px;
+  
     padding: 10px;
 }
 h5{
@@ -132,9 +132,7 @@ h5{
     background-color: white;
    
 } 
-.partnerMargin .cardAdjust {
-    margin-left: 0px;
-}
+
 .partnerMargin .card-img-top{
     width: 150px;
     height: 150px;
