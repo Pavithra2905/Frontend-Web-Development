@@ -106,8 +106,14 @@ h2{
     min-height: 100vh;
 }
 .partnerAdjust .card{
-    margin-left: 100px;
+ 
     padding: 10px;
+}
+.partnerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 h5{
     font-size: 20px;

@@ -105,7 +105,7 @@ h2{
 }
 
 .partnerAdjust .card{
-    margin-left: 100px;
+   
     padding: 10px;
 }
 h5{
@@ -113,7 +113,12 @@ h5{
     font-weight: 600;
     color:#511f52;
 }
-
+.partnerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 .card-title{
    
     font-size: 2rem;
