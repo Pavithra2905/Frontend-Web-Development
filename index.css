@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(#f797d9,#dacadb);
+     background-image: linear-gradient(#e6d6e0,#dacadb); 
     min-height: 100vh;
 }
 .container-fluid{
@@ -47,11 +47,17 @@ body{
     border: 2px dashed #511f52;
     padding: 20px;
 }
-.btn{
-    font-size: 15px;
+.button{
+   
     background-color: #511f52;
     color: #b297f7;
+    padding: 5px;
     
+}
+.btnLogin a{
+    background-color: #511f52;
+    color: #b297f7;
+    font-size: 15px;
     
 }
 .btnLogin{
@@ -64,35 +70,4 @@ body{
 .form-text{
     font-size: 15px;
     font-weight: 500;
-}
-/* .imge{
-   overflow: hidden;
-    position: relative;
-} */
-/* .img-fluid{
-    position: absolute;
-    opacity: 0.4;
-    width: 100%;
-    
-    height: auto;
-}
-
- .forming{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
- } 
- form{
-    border: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   padding: 50px;
- } */
-
-/* .login{
-    position: relative;
-   
 }
